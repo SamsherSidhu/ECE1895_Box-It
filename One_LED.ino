@@ -7,7 +7,7 @@ void setup() {
   pinMode(BUTTON, INPUT);
   pinMode(LED1, OUTPUT);
 }
-
+// Brendan
 void loop() {
   if(digitalRead(BUTTON) == HIGH) {
     digitalWrite(LED1, HIGH);
